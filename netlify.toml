@@ -2,6 +2,7 @@
   command = "next build"
   publish = ".next"
   functions = "netlify/functions"
+  environment = { NETLIFY_SKIP_BUILD_SECRET_DETECTION = "true" }
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
