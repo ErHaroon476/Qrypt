@@ -1,6 +1,6 @@
 import CryptoJS from "crypto-js";
 
-const SECRET_KEY = process.env.NEXT_PUBLIC_ENCRYPTION_KEY || "default_secret_key";
+const SECRET_KEY = process.env.NEXT_PUBLIC_ENCRYPTION_KEY;
 
 // Encrypt plain text (e.g. password)
 export function encrypt(text: string): string {
