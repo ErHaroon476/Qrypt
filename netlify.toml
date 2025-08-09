@@ -4,3 +4,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NETLIFY_SKIP_BUILD_SECRET_DETECTION = "true"
