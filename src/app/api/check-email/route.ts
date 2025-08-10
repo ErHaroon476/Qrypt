@@ -1,3 +1,7 @@
+
+// api/check-email
+
+
 import { NextResponse } from "next/server";
 import admin from "firebase-admin";
 
